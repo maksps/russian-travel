@@ -4,5 +4,35 @@
   flex-direction: column;
   flex-wrap: nowrap;
   padding: 92px 0 0 148px;
+  padding-left: calc(148/1280*100%);
 
 }
+
+@media screen and (max-width: 1025px) {
+  .intro{
+    padding-left: calc(48/1280*100%);
+    padding-right:calc(48/1280*100%) ;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+  .intro{
+    padding-top: 88px;
+    padding-left: calc(24/1280*100%);
+    padding-right:calc(24/1280*100%);
+  }
+}
+
+
+
+@media screen and (max-width: 425px) {
+  .intro{
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+  }
+
+}
+

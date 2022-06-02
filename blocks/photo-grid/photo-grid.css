@@ -1,9 +1,36 @@
-.photo-grid{
+.photo-grid {
   max-width: 1184px;
   display: grid;
   padding-top: 92px;
   padding: 92px 48px 0 48px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: auto;
   gap: 16px;
+}
+
+@media screen and (max-width: 1025px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    padding-left: calc(48/1024*100%);
+    padding-right: calc(48/1024*100%);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-left: calc(24/768*100%);
+    padding-right: calc(24/768*100%);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

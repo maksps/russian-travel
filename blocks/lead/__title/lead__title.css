@@ -9,3 +9,19 @@
   color: #FFFFFF;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 725px) {
+  .lead__title {
+    max-width: 450px;
+    font-size: 54px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__title {
+    max-width: 322px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

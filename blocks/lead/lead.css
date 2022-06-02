@@ -3,7 +3,14 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-width: calc(100% - 2*148px);
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 56px;
 }
+
+@media screen and (max-width:1025px) {
+  .lead{
+    padding-top: 48px;
+  }
+}
+

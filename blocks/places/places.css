@@ -1,9 +1,35 @@
-.places{
+.places {
   display: grid;
   max-width: 984px;
-  margin: 0 auto;
+  margin: 0;
   padding-top: 92px;
-  grid-template-columns: 1 1fr;
+  padding-left: calc(148/1280*100%);
+  padding-right: calc(148/1280*100%);
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   gap: 80px;
+}
+
+@media screen and (max-width: 1025px) {
+  .places {
+    padding-left: calc(48/1024*100%);
+    padding-right: calc(48/1024*100%);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .places {
+    padding-left: calc(24/768*100%);
+    padding-right: calc(24/768*100%);
+  }
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+  .places {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
