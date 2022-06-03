@@ -1,4 +1,4 @@
-.lead__caption{
+.lead__caption {
   align-self: flex-start;
   font-family: 'Inter';
   font-style: normal;
@@ -8,24 +8,24 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 8px 0 0 0 ;
-  margin-left: calc((148/1280)*100%) ;
+  margin: 8px 0 0 0;
+  margin-left: calc((148/1280)*100%);
 }
 
 @media screen and (max-width: 1025px) {
-  .lead__caption{
+  .lead__caption {
     margin-left: calc((48/1024)*100%);
   }
 }
 
 @media screen and (max-width: 769px) {
-  .lead__caption{
+  .lead__caption {
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .lead__caption{
+  .lead__caption {
     margin-left: 16px;
   }
 }
