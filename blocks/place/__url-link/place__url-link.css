@@ -1,4 +1,4 @@
-.place__url-link{
+.place__url-link {
 
   font-style: normal;
   font-weight: 400;
@@ -6,11 +6,11 @@
   line-height: 1.22;
   color: #FFFFFF;
   text-decoration-line: underline;
-  text-underline-offset: 10px;
+  text-underline-offset: 2px;
   transition: opacity 0.2s linear;
 }
 
-.place__url-link:hover{
+.place__url-link:hover {
 
   opacity: 0.8;
 }
