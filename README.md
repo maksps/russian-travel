@@ -9,5 +9,5 @@
 
 
 
-### : Ссылка на проект:  
+### Ссылка на проект:
 https://maksps.github.io/russian-travel/
