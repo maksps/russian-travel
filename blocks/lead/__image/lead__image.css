@@ -1,5 +1,6 @@
 .lead__image{
-  width: calc(100% - 2*(148/1280)*100%);
+  max-width: 984px;
+  width: calc(100% - 2*48px);
   object-fit: cover;
 
 }

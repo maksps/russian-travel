@@ -21,6 +21,7 @@
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+    padding-top: 88px;
     padding-left: calc(24/768*100%);
     padding-right: calc(24/768*100%);
   }
@@ -30,6 +31,7 @@
   .photo-grid {
     grid-template-columns: 1fr;
     gap: 12px;
+    padding-top: 64px;
     padding-left: 16px;
     padding-right: 16px;
   }

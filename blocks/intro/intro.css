@@ -10,17 +10,18 @@
 
 @media screen and (max-width: 1025px) {
   .intro {
-    padding-left: calc(48/1280*100%);
-    padding-right: calc(48/1280*100%);
+    padding-left: calc(48/1024*100%);
+    padding-right: calc(48/1024*100%);
   }
 
 }
 
 @media screen and (max-width: 769px) {
   .intro {
+    max-width: 720px;
     padding-top: 88px;
-    padding-left: calc(24/1280*100%);
-    padding-right: calc(24/1280*100%);
+    padding-left: calc(24/768*100%);
+    padding-right: calc(24/768*100%);
   }
 }
 
