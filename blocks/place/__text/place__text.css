@@ -1,4 +1,4 @@
-.place__text{
+.place__text {
   max-width: 100%;
   min-width: 200px;
   font-weight: 400;
@@ -10,6 +10,16 @@
   .place__text {
     font-size: 16px;
     line-height: 1.63;
+
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+  .place__text {
+    padding-left: 16px;
+    padding-right: 16px;
 
   }
 
